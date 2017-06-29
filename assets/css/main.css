@@ -45,3 +45,40 @@ h6{
 .items{
     font-size: 20px;    
 }
+
+input[type=text]:not(.browser-default):focus:not([readonly]){
+    border-bottom: 1px solid white;
+    box-shadow: 0 1px 0 0 white;
+}
+
+hr{
+    margin: 30px 0;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid white;
+    padding: 0;
+}
+
+.padre{
+    margin: 10px 0;
+}
+
+.btn{
+    background-color: teal; 
+    height: 20px;
+    line-height: inherit;   
+}
+
+.btn:hover{
+    background-color: white;
+}
+
+[type="checkbox"]:checked+label:before {
+    border-right: 2px solid teal; 
+    border-bottom: 2px solid teal; 
+}
+
+.label-dos {
+    font-size: 1.2rem;
+    color: white;
+}
