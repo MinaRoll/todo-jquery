@@ -16,3 +16,9 @@ $(document).ready(function(){
 	        	$("#tarea").val("");	
 			}	                
 	    }
+
+	    $('.sacar').click(function(){
+			$(this).parent().remove();
+			localStorage.setItem('listItems', $('#agregar-tareas').html());
+			localStorage.setItem('listItemsDos', $('#tareas').html());
+		})
