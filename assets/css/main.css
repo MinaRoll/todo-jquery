@@ -1,1 +1,22 @@
-    
+    /* HEADER */
+
+nav .nav-to-do {
+    background-color: teal; 
+    padding-left: 30px;
+    padding-top: 0px;
+    height: 200px;
+}
+
+.logo{
+    font-weight: 100;   
+    letter-spacing: 5px;
+}
+
+.logo:hover{
+    border-bottom: 1px solid white;
+    font-weight: bold;
+}
+
+nav .logo {
+    font-size: 3.1rem;
+}
