@@ -49,6 +49,7 @@ h6{
 input[type=text]:not(.browser-default):focus:not([readonly]){
     border-bottom: 1px solid white;
     box-shadow: 0 1px 0 0 white;
+    color: white;
 }
 
 hr{
@@ -71,6 +72,8 @@ hr{
 
 .btn:hover{
     background-color: white;
+    color: teal;
+    font-weight: bold;
 }
 
 [type="checkbox"]:checked+label:before {

@@ -22,3 +22,18 @@ $(document).ready(function(){
 			localStorage.setItem('listItems', $('#agregar-tareas').html());
 			localStorage.setItem('listItemsDos', $('#tareas').html());
 		})
+
+		$('[type="checkbox"]').click(function(){
+
+			$($(this).parent()).appendTo("#tareas");
+			$(this).remove();
+			$("#tareas label").attr("class","label-dos");
+
+			localStorage.setItem('listItemsDos', $('#tareas').html());
+
+		})
+
+
+	});
+
+});
